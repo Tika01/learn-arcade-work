@@ -1,4 +1,1 @@
-print('Hello \'Samantha\'... How are you today!')
-print('Hello \'Samantha\'... How are you today!')
-print('Hello \'Samantha\'... How are you today!')
-print('Hello \'Samantha\'... How are you today!')
+print("Hello, I'm Samantha, this is my 1st assignment \nI guess it's pretty cool \nI don't know \nOkay I'm done")
