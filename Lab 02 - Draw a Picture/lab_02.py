@@ -102,7 +102,7 @@ arcade.draw_polygon_filled(((125, 85),
 
 
 
-# Stairs
+# Stair
 arcade.draw_polygon_filled(((200, 265),
                             (175, 260),
                             (225, 230),
