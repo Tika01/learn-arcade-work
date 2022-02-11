@@ -91,11 +91,6 @@ def create_gray_stair(x: int, y:int):
                                 (x+50, y-30)),
                                arcade.color.ASH_GREY)
 
-
-
-
-
-
 def main():
     arcade.open_window(SCREEN_WIDTH, SCREEN_HEIGHT, "Drawing With Functions Lab 3")
 # Set the background color + main green wall
@@ -122,7 +117,6 @@ def main():
     rect()
 
     rect_2()
-
 
     create_white_step(175, 260)
     create_white_step(150, 230)
