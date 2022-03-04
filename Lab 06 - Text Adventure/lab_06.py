@@ -106,7 +106,7 @@ def main():
             elif key in ['south', 's', 'down', 'd'] and current_room.south is not None:
                 current_room = current_room.south.enter_room()
             elif key in ['west', 'w', 'left', 'l'] and current_room.west is not None:
-                current_room = current_room.west.enter_room()
+                current_room.west.enter_room()
             else:
                 print('Sorry, You hit a wall! I hope you head hurts!')
         else:
