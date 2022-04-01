@@ -82,8 +82,9 @@ class MyGame(arcade.Window):
                                       arcade.load_texture("background.png"))
 
         # arcade.start_render()
-        self.boat.draw()
         self.moon.draw()
+        self.boat.draw()
+
 
     def update(self, delta_time):
         self.boat.update()
