@@ -12,7 +12,6 @@ def wall_hole():
     arcade.draw_polygon_filled(((200, 340),
                                 (200, 265),
                                 (250, 235),
-                                (250, 315),
                                 ),
                                arcade.csscolor.DARK_GREEN)
 
